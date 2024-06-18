@@ -52,8 +52,9 @@ begin
   Result := FParent;
 end;
 
-{Exemplo de implementação
- https://www.devmedia.com.br/enviar-anexo-no-corpo-do-email-com-indy/2657#comentariosArtigo
+{
+Exemplo de estrutura da mensagem
+https://www.devmedia.com.br/enviar-anexo-no-corpo-do-email-com-indy/2657
 }
 procedure TMailMessage.GenerateMessasse(const email: string; const name: String);
 var
